@@ -19,3 +19,12 @@ Cada chatbot obté un màxim de 5 punts, d'acord amb els següents ítems.
 1 punt. Realització de vídeo amb converses reals que demostrin les capacitats dels vostres bots.
 
 Tot i que hi ha temps fins a final d'abril per a realitzar els dos bots, convé tenir enllestit el primer en unes cinc setmanes, cap al 15 de març.
+
+lmsgi.aiml
+Se trata de la traducción al castellano del tutorial de Steve Worswick.
+Responde a las preguntas:
+- Hablame sobre ....
+- Que tiempo hace en ....
+- Muestrame un mapa de ...
+Y, responde a las mismas preguntas, pero en vez de poner el lugas, decimos "allí"
+
