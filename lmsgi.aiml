@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>No tengo respuesta para eso.</template>
+  </category>
+  
+  
+  <category>
+    <pattern>Hablame sobre *</pattern>
+    <template>Hay algo de información sobre <star/>
+    <button>
+        <text>Pulsa aquí.</text>
+        <url>https://es.wikipedia.org/wiki/<star/></url>
+    </button>
+    </template>
+  </category>
+  
+   <category>
+    <pattern>Muestrame un mapa de *</pattern>
+    <template>Aquí tienes un mapa de  <star/>
+    <button>
+        <text>Pulsa aquí.</text>
+        <url>https://www.google.es/maps?q=<star/></url>
+    </button>
+    </template>
+  </category>
+  
+   <category>
+    <pattern>Que tiempo hace en *</pattern>
+    <template>Espero que haga un buen tiempo en <star/>
+    <button>
+        <text>Pulsa aquí para ver el informe meteorológico.</text>
+        <url>https://www.eltiempo.es/<star/>.html?q=<star/></url>
+    </button>
+    </template>
+  </category>
+  
+</aiml>
