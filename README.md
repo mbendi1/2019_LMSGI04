@@ -28,3 +28,8 @@ Responde a las preguntas:
 - Muestrame un mapa de ...
 Y, responde a las mismas preguntas, pero en vez de poner el lugas, decimos "allí"
 
+marcosasiste.aiml
+Proyecto de chatbot de asistencia Técnica al usuario sobre
+- Hardware. Muestra información básica sobre fallos comunes de hardware, e información de contacto con personal del CAU.
+- software. Muestra como ponerse en contacto con el CAU para que personal autorizado proceda a la revisión del software. 
+- gestión de contraseñas. Como cambiar y recuperar contraseñas de usuario en diferentes sistemas.
