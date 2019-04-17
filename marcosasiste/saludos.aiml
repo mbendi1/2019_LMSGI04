@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<category>
+    <pattern>hola</pattern>
+    <template>
+        <random>
+            <li>Hola.</li>
+            <li>saludos.</li>
+            <li>Uep!.</li>
+            <li>Que tal.</li>
+            <li>Hola, ¿Que tal?.</li>
+            <li>Saludos, ¿En que puedo ayudarte?.</li>
+            <li>Buenas.</li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>Adios</pattern>
+    <template>
+        <random>
+            <li>Adios.</li>
+            <li>Hasta pronto.</li>
+            <li>Que vaya bien.</li>
+            <li>Gracias por todo.</li>
+            <li>Hasta otra.</li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>Gracias</pattern>
+    <template>
+        <random>
+            <li>A ti.</li>
+            <li>No hay de que.</li>
+            <li>No se merecen.</li>
+            <li>De nada.</li>
+        </random>
+    </template>
+</category>
+</aiml>

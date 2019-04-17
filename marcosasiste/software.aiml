@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+<category>
+    <pattern>software</pattern>
+        <template>
+             ¿Con que clase de software necesitas ayuda?<br/>
+              Word,  <br/>
+              Excel,  <br/>
+              Outlook,  <br/>
+              LibreOffice  <br/>
+              u Otro Software <br/>
+        </template>
+</category>
+
+<category>
+    <pattern>1</pattern>
+    <that>*</that>
+    <template>
+        <think>
+            <set name="Opcion2">1</set>
+        </think>
+        <srai>asoft</srai>
+    </template>
+</category>
+  
+<category>
+    <pattern>asoft</pattern>
+    <template>
+        <think>
+            <condition name="opcion2">
+                <li value="1">
+                    <set name="passwd1">Word</set>
+                </li>
+                <li value="2">
+                    <set name="passwd2">Excel</set>
+                </li>
+                <li value="3">
+                    <set name="passwd3">Outlook</set>
+                </li>
+                <li value="4">
+                    <set name="passwd4">LibreOffice</set>
+                </li>
+                <li value="5">
+                    <set name="passwd5">Otro Software</set>
+                </li>
+            </condition>
+        </think>
+        <srai><get name="soft1"/></srai>
+    </template>
+</category>
+
+<category>
+    <pattern>Word</pattern>
+    <template>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Proyecto_en_construccion.jpg">
+        </img>
+    </template>
+</category>
+
+<category>
+    <pattern>Excel</pattern>
+    <template>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Proyecto_en_construccion.jpg">
+        </img>
+    </template>
+</category>
+<category>
+    <pattern>Outlook</pattern>
+    <template>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Proyecto_en_construccion.jpg">
+        </img>
+    </template>
+</category>
+
+
+
+ <category>
+    <pattern>LibreOffice</pattern>
+    <template>Espero que esto pueda resolver tus dudas sobre <srai/>.
+    <button>
+        <text>Pulsa aquí</text>
+        <url>https://wiki.documentfoundation.org/Documentation/es#Gu.C3.ADas_de_usuario</url>
+    </button>
+    </template>
+</category>
+ 
+<category>
+    <pattern>Otro Software</pattern>
+    <template>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Proyecto_en_construccion.jpg">
+        </img>
+    </template>
+</category>
+
+</aiml>
