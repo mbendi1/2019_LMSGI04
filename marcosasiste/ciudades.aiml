@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<category>
+    <pattern>Soy de *</pattern>
+    <template><think><set name="ciudad"><star/></set></think>
+    Envía un email a la dirección soporte.<map name="mapas"><get name="ciudad"/></map>@empresa.es y facilítales la información del Software del que necesitas asistencia; así como un número de contacto y el nombre de tu equipo.
+    </template>
+</category>
+
+<category>
+    <pattern>*</pattern>
+    <template><think><set name="ciudad"><star/></set></think>
+    Ponte en contacto con alquien en soporte.<map name="mapas"><get name="ciudad"/></map>@empresa.es
+    </template>
+</category>
+</aiml>

@@ -74,24 +74,19 @@
     </template>
 </category>
 
-
-
  <category>
     <pattern>LibreOffice</pattern>
-    <template>Espero que esto pueda resolver tus dudas sobre <srai/>.
+    <template>Espero que esto pueda resolver tus dudas sobre LibreOffice.
     <button>
         <text>Pulsa aquí</text>
         <url>https://wiki.documentfoundation.org/Documentation/es#Gu.C3.ADas_de_usuario</url>
     </button>
     </template>
 </category>
- 
+
 <category>
     <pattern>Otro Software</pattern>
-    <template>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Proyecto_en_construccion.jpg">
-        </img>
+     <template>Muy bien, ¿De que ciudad eres?
     </template>
 </category>
-
 </aiml>

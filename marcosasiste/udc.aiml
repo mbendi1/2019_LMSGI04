@@ -7,6 +7,8 @@
     <learn>aiml/software.aiml</learn>
     <learn>aiml/hardware.aiml</learn>
     <learn>aiml/test.aiml</learn>
+    <learn>aiml/ciudades.aiml</learn>
+    
 </template>
 
 <category>
@@ -44,10 +46,6 @@
              ¿En que puedo ayudarte, Hardware, Software o Contraseñas?<br/>
         </template>
 </category>
-
-
-
-
 
 </aiml>
 

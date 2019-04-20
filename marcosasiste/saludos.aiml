@@ -15,6 +15,42 @@
         </random>
     </template>
 </category>
+
+<category>
+    <pattern>buenas</pattern>
+    <template>
+        <random>
+            <li>Hola.</li>
+            <li>saludos.</li>
+            <li>Uep!.</li>
+            <li>Que tal.</li>
+            <li>Hola, ¿Que tal?.</li>
+            <li>Saludos, ¿En que puedo ayudarte?.</li>
+            <li>Buenas.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>buenos dias</pattern>
+    <template>Buenos días. ¿En que puedo ayudarte?.</template>
+</category>
+<category>
+    <pattern>buenos días</pattern>
+    <template>Buenos días. ¿En que puedo ayudarte?.</template>
+</category>
+
+
+
+<category>
+    <pattern>buenas tardes</pattern>
+    <template>Buenas tardes. ¿En que puedo ayudarte?.</template>
+</category>
+<category>
+    <pattern>buenas noches</pattern>
+    <template>Buenas noches. ¿En que puedo ayudarte?.</template>
+</category>
+
 <category>
     <pattern>Adios</pattern>
     <template>
