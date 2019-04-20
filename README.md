@@ -35,11 +35,11 @@ Proyecto de chatbot de asistencia Técnica al usuario sobre:
 - **Gestión de Contraseñas.** Asistencia para cambiar y recuperar contraseñas de usuario en diferentes sistemas.
 
 PAra repartir el código, y para poder emplear diferentes módulos en otros posibles futuros proyectos, se ha separado el archivo en lo siguiente:
-Un archivo **udc.aiml** que sería algo así como el menu principal y el que carga el resto de los módulos.
-un archivo **passwords.aiml**, que contiene el apartado de asistencia en lo referente a contraseñas.
-un archivo **saludos.aim**l, que contiene lo referente a saludos, como hola o buenos días; y tambien Gracias o Adiós. muy básico.
-Un archivo **software.aiml** donde se pretenderásn solucionar las diferentes consulatas sobre el software que pueda tener instalado la organización.
-Un archivo **hardware.aiml** para resolver las consultas sobre hardware.
-Archivo **ciudades.aiml** Referente a una consulta sobre el apartado otro softwarte (software.aiml),recogerá la ciudad, y la empleará para obtener del archivo **mapas.set** y **mapas.map** la provincia, devolviéndo esta como parte de un correo electrónico.
+- Un archivo **udc.aiml** que sería algo así como el menu principal y el que carga el resto de los módulos.
+- Un archivo **passwords.aiml**, que contiene el apartado de asistencia en lo referente a contraseñas.
+- Un archivo **saludos.aim**l, que contiene lo referente a saludos, como hola o buenos días; y tambien Gracias o Adiós. muy básico.
+ -Un archivo **software.aiml** donde se pretenderásn solucionar las diferentes consulatas sobre el software que pueda tener instalado la organización.
+- Un archivo **hardware.aiml** para resolver las consultas sobre hardware.
+- Archivo **ciudades.aiml** Referente a una consulta sobre el apartado otro softwarte (software.aiml),recogerá la ciudad, y la empleará para obtener del archivo **mapas.set** y **mapas.map** la provincia, devolviéndo esta como parte de un correo electrónico.
 En todo ello, se incluyen, texto, inserción de imagen en la ventana del chatbot; botón de enlace a página web externa.....
 
