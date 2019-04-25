@@ -26,7 +26,10 @@ Responde a las preguntas:
 - Hablame sobre ....
 - Que tiempo hace en ....
 - Muestrame un mapa de ...
-Y, responde a las mismas preguntas, pero en vez de poner el lugas, decimos "allí"
+Y, responde a las mismas preguntas, pero en vez de poner el lugar, decimos "allí".
+Además, en el caso de introducir la ciudad en minúsculas, devuelve el resultado con la primera letra de la ciudad en mayúsculas.
+
+En el archivo, **video_ejemplo.rar** se encuentra el video que muestra el funcionamiento del bot.
 
 # marcosasiste
 Proyecto de chatbot de asistencia Técnica al usuario sobre:
@@ -34,12 +37,13 @@ Proyecto de chatbot de asistencia Técnica al usuario sobre:
 - **Software.** Muestra como ponerse en contacto con el CAU para que personal autorizado proceda a la revisión del software. 
 - **Gestión de Contraseñas.** Asistencia para cambiar y recuperar contraseñas de usuario en diferentes sistemas.
 
-PAra repartir el código, y para poder emplear diferentes módulos en otros posibles futuros proyectos, se ha separado el archivo en lo siguiente:
+Para repartir el código, y para poder emplear diferentes módulos en otros posibles futuros proyectos, se ha separado el archivo en lo siguiente:
 - Un archivo **udc.aiml** que sería algo así como el menu principal y el que carga el resto de los módulos.
 - Un archivo **passwords.aiml**, que contiene el apartado de asistencia en lo referente a contraseñas.
 - Un archivo **saludos.aim**l, que contiene lo referente a saludos, como hola o buenos días; y tambien Gracias o Adiós. muy básico.
- -Un archivo **software.aiml** donde se pretenderásn solucionar las diferentes consulatas sobre el software que pueda tener instalado la organización.
+ -Un archivo **software.aiml** donde se pretenderán solucionar las diferentes consulatas sobre el software que pueda tener instalado la organización.
 - Un archivo **hardware.aiml** para resolver las consultas sobre hardware.
 - Archivo **ciudades.aiml** Referente a una consulta sobre el apartado otro softwarte (software.aiml),recogerá la ciudad, y la empleará para obtener del archivo **mapas.set** y **mapas.map** la provincia, devolviéndo esta como parte de un correo electrónico.
-En todo ello, se incluyen, texto, inserción de imagen en la ventana del chatbot; botón de enlace a página web externa.....
+En todo ello, se incluyen, texto, inserción de imagen en la ventana del chatbot; botón de enlace a página web externa, enlace a video de youtube.....
 
+En el archivo **video_marcosasiste.rar** se encuentra el video que muestra el funcionamiento del bot.
