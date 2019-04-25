@@ -5,7 +5,7 @@
     <pattern>hardware</pattern>
         <template>
              ¿De que tipo de hardware hablamos?<br/>
-             ¿Ordenador, Portatil, Pantalla, Monitor, Escaner, Impresora, Red u otro Hardware? <br/>
+             ¿<b>Ordenador</b>, <b>Portatil</b>, <b>Pantalla</b>, <b>Monitor</b>, <b>Escaner</b>, <b>Impresora</b>, <b>Red</b> u <b>Otro Hardware</b>? <br/>
         </template>
 </category>
 <category>
@@ -72,13 +72,22 @@
     <pattern>Pantalla</pattern>
     <template><srai>monitor</srai></template>
 </category>
+
 <category>
     <pattern>Escaner</pattern>
-    <template><srai>obras</srai></template>
+    <template>
+        <b><formal><get name="nombre"/></formal></b>, si se trata de una instalación, recopila los drivers del Escáner y envía un email a la dirección <b>soporte.<map name="mapas"><get name="ciudad"/></map>@empresa.es</b><br/>
+        Facilítales la información del Hardware del que necesitas asistencia; así como un número de contacto y el nombre y/o IP de tu equipo.<br/>
+        Personal del CAU (Centro de Atención al Usuario) se pondrá en contacto contigo para realizar una asistencia remota y solucionar el problema. <br/>
+     </template>
 </category>
 <category>
     <pattern>Impresora</pattern>
-    <template><srai>obras</srai></template>
+    <template>
+        <b><formal><get name="nombre"/></formal></b>, si se trata de una instalación, recopila los drivers de la impresora y envía un email a la dirección <b>soporte.<map name="mapas"><get name="ciudad"/></map>@empresa.es</b><br/>
+        Indica con el mayor detalle posible el fallo de la impresora; así como un número de contacto y el nombre y/o IP de tu equipo.<br/>
+        Personal del CAU (Centro de Atención al Usuario) se pondrá en contacto contigo para realizar una asistencia remota y solucionar el problema. <br/>
+     </template>
 </category>
 <category>
     <pattern>Red</pattern>
