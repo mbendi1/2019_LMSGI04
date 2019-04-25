@@ -1,35 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<!-- insert your AIML categories here -->
+<category>
+    <pattern>Me llamo *</pattern>
+    <template>
+        <think>
+            <set name = "nombre"><star/></set>
+        </think>
+        Bien, <get name ="nombre"/> y, ¿De que ciudad eres?<br/>
+        (Contesta con Mi nombre es ... , Soy ... o Me llamo ...) <br/>
+    </template>
+</category>
 
 <category>
-    <pattern>Soy * de *</pattern>
+    <pattern>Mi nombre es *</pattern>
     <template>
         <think>
-            <set name = "nombre"><star index="1"/></set>
-            <set name = "ciudad"><star index="2"/></set>
+            <set name = "nombre"><star/></set>
         </think>
-        <srai>ayuda2</srai>
+        Bien, <get name ="nombre"/> y, ¿De que ciudad eres?<br/>
+        (Contesta con Mi nombre es ... , Soy ... o Me llamo ...) <br/>
     </template>
 </category>
+
 <category>
-    <pattern>Soy * el de *</pattern>
+    <pattern>Soy *</pattern>
     <template>
         <think>
-            <set name = "nombre"><star index="1"/></set>
-            <set name = "ciudad"><star index="2"/></set>
+            <set name = "nombre"><star/></set>
         </think>
-        <srai>ayuda2</srai>
+        Bien, <get name ="nombre"/> y, ¿De que ciudad eres?<br/>
+        (Contesta con Mi nombre es ... , Soy ... o Me llamo ...) <br/>
     </template>
 </category>
+
 <category>
-    <pattern>* de *</pattern>
+    <pattern>Soy de *</pattern>
     <template>
         <think>
-            <set name = "nombre"><star index="1"/></set>
-            <set name = "ciudad"><star index="2"/></set>
+            <set name = "ciudad"><star/></set>
         </think>
-        <srai>ayuda2</srai>
+    <srai>ayuda2</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>de *</pattern>
+    <template>
+        <think>
+            <set name = "ciudad"><star/></set>
+        </think>
+    <srai>ayuda2</srai>
     </template>
 </category>
 </aiml>

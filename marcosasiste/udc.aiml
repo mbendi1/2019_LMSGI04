@@ -27,7 +27,8 @@
     <pattern>ayuda</pattern>
     <template>
         Vale, para eso estoy aquí.<br/>
-        Por favor, dime tu nombre y desde que ciudad me escribes<br/>
+        Por favor, ¿Como te llamas? <br/>
+        (Contesta con Mi nombre es ... o Me llamo ...) <br/>
     </template>
 </category>
 <category>
