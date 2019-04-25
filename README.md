@@ -41,7 +41,7 @@ Para repartir el código, y para poder emplear diferentes módulos en otros posi
 - Un archivo **udc.aiml** que sería algo así como el menu principal y el que carga el resto de los módulos.
 - Un archivo **passwords.aiml**, que contiene el apartado de asistencia en lo referente a contraseñas.
 - Un archivo **saludos.aim**l, que contiene lo referente a saludos, como hola o buenos días; y tambien Gracias o Adiós. muy básico.
- -Un archivo **software.aiml** donde se pretenderán solucionar las diferentes consulatas sobre el software que pueda tener instalado la organización.
+- Un archivo **software.aiml** donde se pretenderán solucionar las diferentes consulatas sobre el software instalado de la organización.
 - Un archivo **hardware.aiml** para resolver las consultas sobre hardware.
 - Archivo **tomadedatos.aiml** Recogerá el Nombre del usuario y la ciudad a la que pertenece. Más tarde el bot empleará el nombre para referirse al usuario , y empleará la ciudad para obtener del archivo **mapas.set** y **mapas.map** la provincia, devolviéndo esta como parte de un correo electrónico.
 En todo ello, se incluyen, texto, inserción de imagen en la ventana del chatbot; botón de enlace a página web externa, enlace a video de youtube.....
