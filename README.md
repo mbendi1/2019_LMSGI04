@@ -43,7 +43,7 @@ Para repartir el código, y para poder emplear diferentes módulos en otros posi
 - Un archivo **saludos.aim**l, que contiene lo referente a saludos, como hola o buenos días; y tambien Gracias o Adiós. muy básico.
  -Un archivo **software.aiml** donde se pretenderán solucionar las diferentes consulatas sobre el software que pueda tener instalado la organización.
 - Un archivo **hardware.aiml** para resolver las consultas sobre hardware.
-- Archivo **ciudades.aiml** Referente a una consulta sobre el apartado otro softwarte (software.aiml),recogerá la ciudad, y la empleará para obtener del archivo **mapas.set** y **mapas.map** la provincia, devolviéndo esta como parte de un correo electrónico.
+- Archivo **tomadedatos.aiml** Recogerá el Nombre del usuario y la ciudad a la que pertenece. Más tarde el bot empleará el nombre para referirse al usuario , y empleará la ciudad para obtener del archivo **mapas.set** y **mapas.map** la provincia, devolviéndo esta como parte de un correo electrónico.
 En todo ello, se incluyen, texto, inserción de imagen en la ventana del chatbot; botón de enlace a página web externa, enlace a video de youtube.....
 
 En el archivo **video_marcosasiste.rar** se encuentra el video que muestra el funcionamiento del bot.
