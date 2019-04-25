@@ -1,4 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<!-- insert your AIML categories here -->
+<category>
+    <pattern>hardware</pattern>
+        <template>
+             ¿De que tipo de hardware hablamos?<br/>
+             ¿Ordenador, Portatil, Pantalla, Monitor, Escaner, Impresora, Red u otro Hardware? <br/>
+        </template>
+</category>
+<category>
+    <pattern>1</pattern>
+    <that>* Selecciona la opción (1, 2, 3, 4 o 5).</that>
+    <template>
+        <think>
+            <set name="Opcion1">1</set>
+        </think>
+        <srai>HRDWR</srai>
+    </template>
+</category>
+<category>
+    <pattern>HRDWR</pattern>
+    <template>
+        <think>
+            <condition name="opcion1">
+               <li value="1">
+                    <set name="passwd1">Ordenador</set>
+                </li>
+                <li value="2">
+                    <set name="passwd2">Portatil</set>
+                </li>
+                <li value="3">
+                    <set name="passwd3">Pantalla</set>
+                </li>
+                <li value="4">
+                    <set name="passwd4">Monitor</set>
+                </li>
+                <li value="5">
+                    <set name="passwd5">Escaner</set>
+                </li>
+                <li value="6">
+                    <set name="passwd6">Impresora</set>
+                </li>
+                <li value="7">
+                    <set name="passwd7">Red</set>
+                </li>
+                <li value="8">
+                    <set name="passwd8">Otro Hardware</set>
+                </li>
+            </condition>
+        </think>
+        <srai><get name="passwd1"/></srai>
+    </template>
+</category>
+<category>
+    <pattern>Ordenador</pattern>
+    <template><srai>obras</srai></template>
+</category>
+<category>
+    <pattern>Portatil</pattern>
+    <template><srai>obras</srai></template>
+</category>
+<category>
+    <pattern>Monitor</pattern>
+    <template>
+        Verifica que tanto el cable de alimentación como el de datos están correctamente conectados. <br />
+        Verifica que el monitor está encendido.<br/>
+        Solicita la sustitución del monitor al personal del departamento de informática.
+    </template>
+</category>
+<category>
+    <pattern>Pantalla</pattern>
+    <template><srai>monitor</srai></template>
+</category>
+<category>
+    <pattern>Escaner</pattern>
+    <template><srai>obras</srai></template>
+</category>
+<category>
+    <pattern>Impresora</pattern>
+    <template><srai>obras</srai></template>
+</category>
+<category>
+    <pattern>Red</pattern>
+    <template><srai>obras</srai></template>
+</category> 
+<category>
+    <pattern>Otro Hardware</pattern>
+    <template>
+        <b><formal><get name="nombre"/></formal></b>, envía un email a la dirección <b>soporte.<map name="mapas"><get name="ciudad"/></map>@empresa.es</b><br/>
+        Facilítales la información del Hardware del que necesitas asistencia; así como un número de contacto y el nombre y/o IP de tu equipo.<br/>
+     </template>
+</category>
+
+
+
 </aiml>

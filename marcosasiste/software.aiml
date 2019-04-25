@@ -6,11 +6,11 @@
     <pattern>software</pattern>
         <template>
              ¿Con que clase de software necesitas ayuda?<br/>
-              Word,  <br/>
-              Excel,  <br/>
-              Outlook,  <br/>
-              LibreOffice  <br/>
-              u Otro Software <br/>
+              <b>Word</b>,  <br/>
+              <b>Excel</b>,  <br/>
+              <b>Outlook</b>,  <br/>
+              <b>LibreOffice</b>  <br/>
+              u <b>Otro Software</b> <br/>
         </template>
 </category>
 
@@ -69,8 +69,11 @@
 <category>
     <pattern>Outlook</pattern>
     <template>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Proyecto_en_construccion.jpg">
-        </img>
+        Espero que el siguiente videotutorial resuelva las dudas que tengas sobre Outlook<br/>
+        <button>
+        <text>CURSO DE OUTLOOK 2019. Pulsa aquí</text>
+        <url>https://www.youtube.com/watch?v=dtwCLqcU9Vk</url>
+        </button>
     </template>
 </category>
 
@@ -86,7 +89,11 @@
 
 <category>
     <pattern>Otro Software</pattern>
-     <template>Muy bien, ¿De que ciudad eres?
-    </template>
+     <template>
+        <b><formal><get name="nombre"/></formal></b>, envía un email a la dirección <b>soporte.<map name="mapas"><get name="ciudad"/></map>@empresa.es</b><br/>
+        Facilítales la información del Software del que necesitas asistencia; así como un número de contacto y el nombre y/o IP de tu equipo.<br/>
+     </template>
 </category>
+
+
 </aiml>

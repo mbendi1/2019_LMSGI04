@@ -15,22 +15,26 @@
         </random>
     </template>
 </category>
-
+<category>
+    <pattern>hello</pattern>
+    <template><srai>hola</srai></template>
+</category>
 <category>
     <pattern>buenas</pattern>
-    <template>
-        <random>
-            <li>Hola.</li>
-            <li>saludos.</li>
-            <li>Uep!.</li>
-            <li>Que tal.</li>
-            <li>Hola, ¿Que tal?.</li>
-            <li>Saludos, ¿En que puedo ayudarte?.</li>
-            <li>Buenas.</li>
-        </random>
-    </template>
+    <template><srai>hola</srai></template>
 </category>
-
+<category>
+    <pattern>uep</pattern>
+    <template><srai>hola</srai></template>
+</category>
+<category>
+    <pattern>que tal</pattern>
+    <template><srai>hola</srai></template>
+</category>
+<category>
+    <pattern>buenas</pattern>
+    <template><srai>hola</srai></template>
+</category>
 <category>
     <pattern>buenos dias</pattern>
     <template>Buenos días. ¿En que puedo ayudarte?.</template>
@@ -39,9 +43,6 @@
     <pattern>buenos días</pattern>
     <template>Buenos días. ¿En que puedo ayudarte?.</template>
 </category>
-
-
-
 <category>
     <pattern>buenas tardes</pattern>
     <template>Buenas tardes. ¿En que puedo ayudarte?.</template>
@@ -50,19 +51,44 @@
     <pattern>buenas noches</pattern>
     <template>Buenas noches. ¿En que puedo ayudarte?.</template>
 </category>
-
 <category>
     <pattern>Adios</pattern>
     <template>
         <random>
-            <li>Adios.</li>
-            <li>Hasta pronto.</li>
-            <li>Que vaya bien.</li>
-            <li>Gracias por todo.</li>
-            <li>Hasta otra.</li>
+            <li>Adios. </li>
+            <li>Hasta pronto. </li>
+            <li>Que vaya bien. </li>
+            <li>Gracias por todo. </li>
+            <li>Hasta otra. </li>
         </random>
+        Espero haber sido de ayuda.<br/>
     </template>
 </category>
+<category>
+    <pattern>adiós</pattern>
+    <template><srai>adios</srai></template>
+</category>
+<category>
+    <pattern>chao</pattern>
+    <template><srai>adios</srai></template>
+</category>
+<category>
+    <pattern>chaochao</pattern>
+    <template><srai>adios</srai></template>
+</category>
+<category>
+    <pattern>ciao</pattern>
+    <template><srai>adios</srai></template>
+</category>
+<category>
+    <pattern>bye</pattern>
+    <template><srai>adios</srai></template>
+</category>
+<category>
+    <pattern>goodbye</pattern>
+    <template><srai>adios</srai></template>
+</category>
+
 <category>
     <pattern>Gracias</pattern>
     <template>
@@ -71,6 +97,7 @@
             <li>No hay de que.</li>
             <li>No se merecen.</li>
             <li>De nada.</li>
+            <li>No me des las gracias.</li>
         </random>
     </template>
 </category>

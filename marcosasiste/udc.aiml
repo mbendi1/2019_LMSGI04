@@ -8,13 +8,11 @@
     <learn>aiml/hardware.aiml</learn>
     <learn>aiml/test.aiml</learn>
     <learn>aiml/ciudades.aiml</learn>
-    
 </template>
 
 <category>
     <pattern>*</pattern>
-
-<template>
+    <template>
     <random>
         <li>No se lo que es <star/></li>
         <li>¿Que quieres decir con <star/>?.</li>
@@ -25,27 +23,37 @@
     </random>
 </template>
 </category>
-
-<category>
-    <pattern>necesito ayuda</pattern>
-        <template>
-             ¿En que puedo ayudarte, Hardware, Software o Contraseñas?<br/>
-        </template>
-</category>
-
 <category>
     <pattern>ayuda</pattern>
-        <template>
-             ¿En que puedo ayudarte, Hardware, Software o Contraseñas?<br/>
-        </template>
+    <template>
+        Vale, para eso estoy aquí.<br/>
+        Por favor, dime tu nombre y desde que ciudad me escribes<br/>
+    </template>
+</category>
+<category>
+    <pattern>ayuda2</pattern>
+    <template>
+        Muy bien <formal><get name="nombre"/></formal>, <br/>
+        ¿En que puedo ayudarte, Se trata de un problema de <b>Hardware</b>, <b>Software</b> o de <b>Contraseñas</b>?<br/>
+    </template>
+</category>
+<category>
+    <pattern>necesito ayuda</pattern>
+    <template><srai>ayuda</srai></template>
 </category>
 
 <category>
     <pattern>tengo un problema</pattern>
-        <template>
-             ¿En que puedo ayudarte, Hardware, Software o Contraseñas?<br/>
-        </template>
+    <template><srai>ayuda</srai></template>
 </category>
+
+<category>
+    <pattern>obras</pattern>
+    <template>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Proyecto_en_construccion.jpg"></img>
+    </template>
+</category>
+
 
 </aiml>
 
